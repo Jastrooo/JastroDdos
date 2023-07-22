@@ -1,4 +1,4 @@
-#jhڱ{mלכ#Kasihan Mau Remake
+#Kasihan Mau Remake
 import random
 import threading
 import codecs
